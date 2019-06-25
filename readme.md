@@ -1,45 +1,51 @@
-# Java Developer Roadmap
+# Roteiro Desenvolvedor Java
 
-> Roadmap to becoming a [Java](https://g.co/kgs/bzeRda) developer in 2019:
+> Roteiro para se tornar um Desenvolvedor [Java](https://g.co/kgs/bzeRda) em 2019:
 
-Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a Java developer. I made this chart as a tip for everyone who asks me, "What should I learn next a Java developer?"
+<img src="https://img.shields.io/badge/Roteiro-Java Developer-brightgreen.svg"/><img src="https://img.shields.io/badge/Idioma-Portugu%C3%AAs(pt--br)-green.svg"/>
 
-## Disclaimer
+Abaixo você conseguirá encontrar um gráfico demonstrando os caminhos que você pode tomar e as bibliotecas que você deve aprender para se tornar um desenvolvedor Java. Este gráfico foi feito com o intuído de servir como dica para todos aqueles que perguntam “o que devo aprender em seguida como
+desenvolvedor Java?
 
-> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
+## Aviso
 
-## Give a Star! :star:
+> O propósito deste roteiro é te dar uma ideia do panorama geral. O roteiro apenas te guiará se estiver confuso sobre o que aprender em seguida, não será encorajado apenas aprender aquilo que está na moda. Você deve compreender o motivo de uma ferramenta ser melhor do que outras em alguns
+> casos, e lembre-se que o que está na moda nem sempre é o melhor para o trabalho.
+>
+> Estes gráficos foram desenvolvidos originalmente por [Sakib Sami](https://github.com/s4kibs4mi), eu apenas fiz a tradução para **Português** (pt-br) com o intuito de auxiliar aqueles que não dominam a leitura da língua inglesa.
 
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+## Dê uma estrela! :star:
 
-## Roadmap
+Se você gostou ou está utilizando este projeto para aprender o iniciar seu aprendizado, considere dar uma estrela no repositório. Obrigado!
+
+## Roteiro
 
 ![Roadmap](java-developer-roadmap.png)
 
-## Resources
+## Recursos
 
-1. Prerequisites
+1. Pré-requisitos
 
    - [Java](https://www.java.com/en/download/)
    - [Gradle](https://gradle.org/)
-   or [Maven](https://maven.apache.org/)
+   ou [Maven](https://maven.apache.org/)
    - [SQL](https://www.w3schools.com/sql/default.asp)
 
-2. General Development Skills
+2. Habilidades Gerais de Desenvolvimento
 
-   - Learn GIT, create a few repositories on GitHub, share your code with other people
-   - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithGoogle.com/)
-   - Read a few books about algorithms and data structures
-   - Learn about implementation of a basic Authentication
-   - Solid principles, etc
+   - Aprenda GIT, crie alguns repositórios no GitHub, compartilhe seus códigos com outras pessoas.
+   - Aprenda o protocolo HTTP(S), métodos request (GET, POST, PUT, PATCH, DELETE, OPTIONS)
+   - Não sinta medo em utilizar o Google
+   - Leia alguns livros sobre Algoritmos e Estrutura de Dados
+   - Aprenda a implementar uma autenticação básica
+   - Aprenda princípios de SOLID, etc
 
 3. CLI Tools
    1. [args4j](http://args4j.kohsuke.org/)
    2. [JCommander](http://jcommander.org/)
    3. [airline](https://github.com/airlift/airline)
 
-4. Web Frameworks + Routers
+4. Frameworks Web + Routers
 
    1. [Spring](https://spring.io/)
    2. [Play Framework](https://www.playframework.com/)
@@ -47,18 +53,18 @@ If you like or are using this project to learn or start your solution, please gi
    4. [Jersey](https://jersey.github.io/)
    5. [nanohttpd](https://github.com/NanoHttpd/nanohttpd)
 
-5. Databases
+5. Banco de dados
 
-   1. Relational
+   1. Relacionais
       1. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
       2. [PostgreSQL](https://www.postgresql.org/)
       3. [MariaDB](https://mariadb.org/)
       4. [MySQL](https://www.mysql.com/)
       5. [Oracle](https://www.oracle.com/database/)
-   2. Cloud Databases
+   2. Banco de dados em nuvem
       - [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db)
       - [DynamoDB](https://aws.amazon.com/dynamodb/)
-   3. Search Engines
+   3. Motores de busca
       - [ElasticSearch](https://www.elastic.co/)
       - [Solr](http://lucene.apache.org/solr/)
       - [Sphinx](http://sphinxsearch.com/)
@@ -76,28 +82,28 @@ If you like or are using this project to learn or start your solution, please gi
    2. [Ebean](https://ebean.io/)
    3. [BelleORM](https://github.com/codersgarage/BelleORM)
 
-7. Caching
+7. Cache
 
    1. [Caffeine](https://github.com/ben-manes/caffeine)
    2. [EHCache](http://www.ehcache.org/)
    3. [Cache2k](https://cache2k.org/)
-   4. Distributed Cache
+   4. Cache distribuído
       1. [Java-Redis](https://github.com/xetorthio/jedis)
       2. [Java-Memcached](https://redislabs.com/lp/memcached-java/)
       3. [Infinispan](http://infinispan.org/)
 
-8. Logging
+8. Logs
 
-   1. Log Frameworks
+   1. Frameworks de Log
       - [Zap](https://github.com/uber-Java/zap)
       - [TinyLog](http://www.tinylog.org/)
       - [log4j](https://logging.apache.org/log4j)
-   2. Log Management System
+   2. Sistema Gerenciador de Logs
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Tracer](https://github.com/zalando/tracer)
 
-9. Real-Time Communication
+9. Comunicação em Tempo Real (RTC)
    1. [Socket.IO](https://socket.io/)
    2. [atmosphere](https://github.com/Atmosphere/atmosphere)
    3. [webbit](https://github.com/webbit/webbit)
@@ -109,7 +115,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [retrofit](https://square.github.io/retrofit/)
     2. [GraphQL](https://graphql.org/)
 
-11. Good to Know
+11. Interessante saber
 
     - [Beanvalidation](https://beanvalidation.org/)
     - [bouncycastle](https://www.bouncycastle.org/java.html)
@@ -118,9 +124,9 @@ If you like or are using this project to learn or start your solution, please gi
     - [JJWT](https://github.com/jwtk/jjwt)
     - [RxJava](https://github.com/ReactiveX/RxJava)
 
-12. Testing
+12. Testes
 
-    1. Unit, Behavior, Integration, Load Testing
+    1. Unidade, Comportamento, Integração, Teste de Carga
        1. [JUnit](http://junit.org/)
        2. [CitrusFramework](https://citrusframework.org/)
        3. [Gatling](https://gatling.io/)
@@ -133,17 +139,17 @@ If you like or are using this project to learn or start your solution, please gi
        10. [hoverfly-java](https://github.com/SpectoLabs/hoverfly-java)
        11. [rest-assured](https://github.com/rest-assured/rest-assured)
        12. [jbehave](https://jbehave.org/)
-    2. E2E Testing
+    2. Testes E2E
        - [Selenium](https://github.com/tebeka/selenium)
 
-13. Task Scheduling
+13. Agendamento de Tarefas
 
     - [Aurora](https://aurora.apache.org/)
     - [elasticjob](https://github.com/elasticjob/elastic-job-lite)
     - [Sundial](https://github.com/knowm/Sundial)
     - [cron-utils](https://github.com/jmrozanec/cron-utils)
 
-14. MicroServices
+14. Micro Serviços
 
     1. Message-Broker
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
@@ -167,20 +173,20 @@ If you like or are using this project to learn or start your solution, please gi
 
 15. [Java-Patterns](https://github.com/iluwatar/java-design-patterns)
 
-## Wrap Up
+## Fique Ligado
 
-If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
+Se você acredita que este repositório pode ser melhorado, por favor abra um Pull Request com qualquer atualização e submeta um issue.
 
-Idea from : [Golang Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
+Ideia obtida de: [Golang Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 
-## Contribution
+## Contribuição
 
-The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `java-developer-roadmap.xml` file. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png with 400% zoom and minify that with [Compressor.io](https://compressor.io/compress)).
+Este roteiro foi criado utilizando o [Draw.io](https://www.draw.io/). O arquivo do projeto pode ser encontrado em `java-developer-roadmap.xml.` Para modificá-lo, abra o draw.io, clique em “**Open Existing Diagram**” e escolha o arquivo xml do projeto. Isso abrirá o roteiro para você. Atualize o roteiro, faça o upload e atualize a imagem no readme e crie um Pull Request (exporte a imagem em PNG com 400% de zoom e reduza o tamanho da imagem com o [Compressor.io](https://compressor.io/compress)).
 
-- Open a pull request with improvements
-- Discuss ideas in issues
-- Spread the word
+- Abra um Pull Request com melhorias
+- Discuta ideias nos issues
+- Espalhe a palavra
 
-## License
+## Licença
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
