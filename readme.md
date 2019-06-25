@@ -3,7 +3,7 @@
 > Roteiro para se tornar um Desenvolvedor [Java](https://g.co/kgs/bzeRda) em 2019:
 
 <a href="#"><img src="https://img.shields.io/badge/Roteiro-Java Developer-brightgreen.svg"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Idioma-Portugu%C3%AAs(pt--br)-green.svg"/>/a>
+<a href="#"><img src="https://img.shields.io/badge/Idioma-Portugu%C3%AAs(pt--br)-green.svg"/></a>
 
 Abaixo você conseguirá encontrar um gráfico demonstrando os caminhos que você pode tomar e as bibliotecas que você deve aprender para se tornar um desenvolvedor Java. Este gráfico foi feito com o intuído de servir como dica para todos aqueles que perguntam “o que devo aprender em seguida como
 desenvolvedor Java?
